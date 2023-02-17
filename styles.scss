@@ -1,0 +1,36 @@
+$COLOR: darkgoldenrod;
+a{
+    color: $COLOR;
+    font-weight: bold;
+  }
+  b{
+    color: $COLOR;
+  }
+  body{
+    display:grid;
+    place-content: center;
+    text-align: center;
+  }
+  .charts{
+    display: inline-grid;
+    grid-template-columns: repeat(4, 25%);
+    width: 100vw;
+  }
+  h1{
+    color: $COLOR;
+    margin-bottom: 0;
+  }
+  h2{
+    margin-top: 0;
+    font-style: italic;
+  }
+  ul{
+    height: 55vh;
+    overflow-y: scroll;
+  }
+  li{
+    margin: 0.25rem;
+  }
+  footer{
+    margin: 1rem;
+  }
